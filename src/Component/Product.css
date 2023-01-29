@@ -1,0 +1,908 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+  }
+  
+  html {
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+    
+   
+  
+/* -------------------------------------------Header-----------------------------------------------*/
+  
+  header{
+    height: 11vh;
+    width: 100%;
+    background-color:#fff;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 1px 15px 1px rgba(0, 0, 0, 0.2), 0 2px 50px 2px rgba(0, 0, 0, 0),
+    0 0 100px 3px rgba(0, 0, 0, 0);
+  }
+
+  .App-header{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+  }
+
+  header img{
+    height: 15vh;
+    padding-left: 1rem;
+
+  }
+
+  .App-header li p{
+    text-transform: uppercase;
+    font-weight: 100;
+    float: left;
+    display: block;
+    color: black;
+    /* padding: 20px 16px; */
+    text-decoration: none;
+    font-size: 1.7rem;  
+    padding: 3rem; 
+    font-family: "trebuchet MS";
+
+  }
+
+  .App-header .search{
+  padding: 1px 16px;
+  border: none;
+  cursor: pointer;
+  }
+
+  /* .search input{
+    width: 35rem;
+    height: 2.7rem;
+    font-size: 17px;
+    background-color: #e9e9e9;
+    border: none;
+    padding-left: 1rem;
+    border-radius: 5px;
+    margin: 4rem;
+  } */
+
+  .profile img{
+    height: 4.5vh;
+    padding-left: 2rem;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+
+
+/*-----------------------------------------------Home--------------------------------------------*/
+.one {
+  padding: 14rem;
+}
+
+
+.back{
+  position: absolute;
+    width: 100%; 
+    height: 100vh;
+    padding-top: 4rem;
+    z-index: -1;
+    top: 0%;
+}
+
+
+.one .left h1{
+
+  font-size: 3.4rem;
+  color: white;
+  padding-top: 1rem;
+  font-family: "trebuchet MS";
+  font-weight: lighter;
+
+}
+
+.one .left .btn{
+  /* padding: 1.3rem 2.2rem; */
+  width: 20%;
+  height: 7vh;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  background-color: tomato;
+  border: none;
+  margin-top: 1.5rem; 
+  cursor: pointer; 
+  color: #fff;
+}
+.one .left button:hover{
+  
+  transform: scale(1.05);
+  transition: 0.1s ease-in-out
+}
+
+.one .left p{
+
+font-family: "trebuchet MS";
+color: white; 
+font-size: 14pt;
+width: 40%;
+line-height: 28px;  
+margin-top: 1rem;
+}
+
+
+
+/*------------------------------------------------------Imageslider-----------------------------*/
+
+h3{
+  padding-left:3rem;
+  font-size: 2rem;
+  font-weight: lighter;
+  font-family: "trebuchet MS";
+}
+
+
+.slide{
+  background-color: #d3dded;
+  height: auto;
+  width: 90%;
+  box-shadow: 0 0 10px rgba(80, 80, 80, 0.2);
+  border-radius: 5px;
+  margin: 3rem;  
+}
+
+.slideimage{
+  height: 24rem;
+  width: 15rem;
+  padding-left: 1rem;
+  padding-top: 1rem;
+
+}
+
+.paragraph{
+  height: 75vh;
+  width: 100%;
+  background-color: #f8f9fa;
+  padding-top: 7rem;
+  margin-top: 7rem ;
+  margin-bottom: 7rem;
+}
+
+.paragraph h1{
+  padding-left:4rem;
+  padding-bottom: 1rem;
+  font-size: 2.3rem;
+  font-weight: lighter;
+  font-family: "trebuchet MS";
+}
+
+.paragraph p{
+  padding-left:4rem;
+  padding-bottom: 4rem;
+  font-size: 1.3rem;
+  font-weight: lighter;
+  font-family: "trebuchet MS";
+  color: #555;
+}
+
+.paragraph h2{
+  padding-left:4rem;
+  font-size: 2.3rem;
+  font-weight: lighter;
+  font-family: "trebuchet MS";
+  color: #555;
+}
+
+
+.slide1{
+  background-color: #d3dded;
+  height: auto;
+  width: 85%;
+  box-shadow: 0 0 10px rgba(80, 80, 80, 0.2);
+  border-radius: 5px;
+  margin: 4rem;
+  margin-left: 2rem;
+}
+
+
+.slideimage1{
+  height: 17rem;
+  width: 17rem;
+  padding-left: 4rem;
+}
+
+.description{
+  background-color: white;
+  height: 10rem;
+  width: 100%;
+  padding: 1rem;
+
+}
+
+.description h4{
+  font-size: 1.5rem;
+  font-weight: lighter;
+  padding-bottom: 0.5rem;
+}
+
+.description h4 span{
+  font-size: 0.9rem;
+  padding-left: 7rem;
+}
+
+.description p{
+  padding-top: 1rem;
+  color: #555;
+}
+
+
+
+/* ------------------------------- */
+.six{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: #232F3E;
+  padding: 3rem;
+  padding-bottom: 10rem;
+  margin-top: 18rem;
+  color: white;
+}
+
+.content1 .keep{
+display: flex;
+gap: 1.3rem;
+padding-bottom: 2rem;
+}
+
+.content1 .keep h2{
+  padding-top: 1rem;
+  font-size: 1.8rem;
+  color: #54fff6;
+    font-family: "trebuchet MS";
+
+
+}
+
+
+
+.content1 p{
+
+  font-size: 1.2rem;
+  font-family: "trebuchet MS";
+  color: lightslategray;
+
+}
+
+.content1 img{
+  height: 3rem;
+}
+
+.content1 ul{
+  display: flex;
+  list-style: none;
+  padding: 2rem;
+  gap: 1rem;
+}
+
+
+.content2{
+
+  width: 100%;
+  padding-left: 8rem;
+  padding-top: 0.5rem;
+
+}
+
+.content2 h1{
+
+  font-size: 2rem;
+  font-family: "trebuchet MS";
+  color: #54fff6;
+
+}
+
+.content2 ul{
+
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-top: 2rem;
+}
+
+.content2 ul li{
+  font-size: 1.4rem;
+  font-family: "trebuchet MS";
+  color: lightslategray;
+
+}
+
+.content3 h1{
+
+  font-size: 2rem;
+  padding-bottom: 2rem;
+  font-family: "trebuchet MS";
+  color: #54fff6;
+  padding-top: 1rem;
+
+}
+
+.content3 span{
+
+  font-size: 1.2rem;
+  color: lightslategray;
+  
+
+}
+
+.content3 input{
+
+  border-radius: 10px;
+  width: 70%;
+  outline-color: red;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+
+}
+
+.content3 button{
+  padding: 0.7rem 3rem;
+  font-size: 1.4rem;
+  font-weight: 550;
+  border: none;
+  border-radius: 8px;
+  background-color: royalblue;
+  color: white;
+  margin-left: 6rem;
+}
+
+
+/*------------------------------------------CONTACT-----------------------------------------------*/
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+iframe{
+  height: 55vh;
+  width: 90vh;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.container {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.column {
+  margin-left: 12rem;
+  margin-top: 3rem;
+  padding: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+
+  /*--------------------------------------About-----------------------------------------------------*/
+
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .cards{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-left: 8rem;
+    margin-top: 1rem;
+    height: 100%;
+    width: 60%;
+    background-color: white;
+  }
+  .cards img{
+    width: 100%;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
+  
+  .container {
+    padding: 1rem 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  /* @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  } */
+
+
+/*------------------------------------------------ARTIFACTS-----------------------------------------*/
+
+.subtle {
+  color: #aaa;
+}
+
+.search input{
+  width: 37rem;
+  height: 3rem;
+  font-size: 17px;
+  background-color: #e9e9e9;
+  border: none;
+  padding-left: 1rem;
+  border-radius: 5px;
+  margin: 4rem;
+  margin-bottom: 1rem;
+}
+
+.main-card--cointainer {
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  grid-gap: 1.5rem;
+  justify-content: space-around;
+  width: 95%;
+  margin: 3rem;
+  
+}
+
+.card-container {
+   margin: 10px auto 0;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: space-around;
+  align-items: flex-start; 
+
+  
+}
+
+.card-container img {
+  max-width: 100%;
+  padding: 1.4rem;
+  width: 100rem;
+  height: 20rem;
+  background-color: #d3dded;
+  box-shadow: 0 0 10px rgba(80, 80, 80, 0.2);
+  border-radius: 5px;
+
+}
+
+.card {
+  background-color: white;
+  border-radius: 5px;
+  height: 30rem;
+  position: relative;
+  box-shadow: 0 0 10px rgba(80, 80, 80, 0.2);
+  z-index: 1;
+}
+
+.card-body {
+  display: inline-block;
+}
+
+.card-number {
+  margin-top: 15px;
+}
+
+.card-author {
+  display: block;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  margin: 15px 0 0;
+}
+
+.card-title {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.6rem;
+  padding-left: 10px;
+  font-weight: 300;
+  line-height: 30px;
+  margin: 7px 0;
+  font-family: "trebuchet MS";
+  text-transform: capitalize;
+}
+.card-title .year{
+  font-size: 0.9rem;
+  padding-left: 8rem;
+  font-family: "trebuchet MS";
+  color: lightslategray;
+
+}
+
+.card-description {
+ font-family: "trebuchet MS";
+ padding: 1rem;
+ font-size: 1.1rem;
+}
+
+.card-read {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 6px;
+  margin: 5px 0 20px;
+  position: relative;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.card-read:after {
+  background-color: #b8bddd;
+  content: "";
+  display: block;
+  height: 1px;
+  position: absolute;
+  top: 9px;
+  width: 75%;
+}
+
+.card-tag {
+  float: right;
+  margin: 5px 0 0;
+  border: 1px solid #aaa;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.card-tag:hover {
+  background: #aaa;
+  color: black;
+}
+
+ .card-media {
+  max-width: 0%;
+  height: auto;
+}
+ 
+.card-shadow {
+  background-color: #fff;
+  box-shadow: 0 2px 25px 2px rgba(0, 0, 0, 1), 0 2px 50px 2px rgba(0, 0, 0, 1),
+    0 0 100px 3px rgba(0, 0, 0, 0.25);
+  height: 1px;
+  margin: -1px auto 0;
+  width: 80%;
+  z-index: -1;
+}
+
+
+
+
+
+
+
+
+/*-------------------------------------------SHOP---------------------------------------------------*/
+
+.shop{
+  padding: 10rem;
+  padding-top: 15rem;
+  color: #fff;
+}
+
+.shop h1{
+  font-size: 3rem;
+  padding-bottom: 3rem;
+  font-family: "trebuchet MS";
+  font-weight: lighter;
+}
+
+.shop p{
+  font-size: 2rem;
+  padding-bottom: 3rem;
+  font-family: "trebuchet MS";
+  font-weight: lighter;
+}
+
+.shop h2{
+  font-size: 2.5rem;
+  padding-bottom: 2rem;
+  font-family: "trebuchet MS";
+  font-weight: lighter;
+}
+
+.heading{
+  margin-top: 8rem;
+  margin-left: 8rem;
+  font-family: "trebuchet MS";
+  font-weight: lighter;
+}
+
+.main-card{
+ display: grid;
+  grid-template-columns: repeat(3, minmax(150px, 500px));
+  grid-gap: 7rem;
+  justify-content: space-around;
+  margin: 8rem;
+  margin-top: 2rem;
+}
+
+
+/*-------------------------------------------MOBILE VIEW--------------------------------------------*/
+
+@media screen and (max-width: 600px) {
+   .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+    float: none;
+    width: 100%;
+   }
+ 
+.column{
+  float: right;
+  width: 100%;
+  margin-bottom: 0px;
+  padding: 0px;
+  display: block;
+}
+
+
+.cards{
+
+margin-left: 5rem;
+margin-top: 0rem;
+
+}
+
+header{
+  width: 100%;
+  height: 10vh;
+}
+
+header img{
+
+  height: 8vh;
+  padding-top: 1rem;
+  padding-left: 0rem;
+
+}
+
+.App-header{
+  gap: 0.7rem;
+}
+
+.App-header li p{
+  font-size: 0.9rem;
+  padding: 0rem;
+  padding-top: 2rem;
+}
+
+/*-----------------------------------------------Home--------------------------------------------*/
+.one{
+  padding: 3rem;
+  padding-top: 6rem;
+  padding-bottom: 7rem;
+}
+
+.back{
+  height: 55vh;
+}
+
+.one .left h1{
+
+  font-size: 1rem;
+
+}
+
+.one .left p{
+  font-size: 9pt;
+  line-height: 15px; 
+  width: 70%;
+  margin-top: 0.5rem;
+ 
+
+}
+.one .left .btn{
+  font-size: 0.6rem;
+  border-radius: 3px;
+  margin-top: 0.5rem; 
+  width: 27%;
+  height: 3.5vh;
+  
+}
+/*------------------------------------------------------Imageslider-----------------------------*/
+
+h3{
+  padding-left:1rem;
+  font-size: 1rem;
+  
+}
+
+.slide{
+margin: 1rem;
+width: 95%;
+
+}
+
+.slideimage{
+  height: 9rem;
+  width: 5rem;
+  padding-left: 0rem;
+  /* padding-bottom: 0.5rem; */
+
+}
+
+.paragraph{
+  height: 65vh;
+  padding-top: 2rem;
+  margin-top: 3rem ;
+  margin-bottom: 3rem;
+}
+
+.paragraph h1{
+  padding-left:1rem;
+  padding-bottom: 0.4rem;
+  font-size: 1.5rem;
+  
+}
+
+.paragraph p{
+  padding-left: 1rem;
+  /* padding-bottom: 1rem; */
+
+  font-size: 1rem;
+}
+
+.paragraph h2{
+  padding-left: 1rem;
+  padding-bottom: 0.4rem;
+  font-size: 1.5rem;
+}
+
+.slide1{
+
+  width: 95%;
+  margin: 1rem;
+
+
+}
+
+.slideimage1{
+  height: 8rem;
+  width: 4rem;
+  padding-left: 1rem;
+}
+
+.description{
+  height: 7rem;
+  /* width: 100%; */
+  padding: 0.6rem;
+
+}
+
+.description h4{
+  font-size: 13px;
+  font-weight: lighter;
+  padding-bottom: 0.5rem;
+}
+
+.description h4 span{
+  font-size: 0rem;
+  padding-left: 0rem;
+}
+
+.description p{
+  padding-top: 0rem;
+  font-size: 7px;
+}
+
+/* ------------------------------- */
+
+.six{
+  grid-template-columns: repeat(1, 1fr);
+
+  padding: 1rem;
+  margin-top: 7rem;
+
+}
+
+.content2{
+  padding-left: 0rem;
+}
+
+/*------------------------------------------------ARTIFACTS-----------------------------------------*/
+.main-card--cointainer {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(150px, 500px));
+  grid-gap: 7px;
+  justify-content: space-around;
+  margin: 0.5rem;
+}
+
+.card-container img {
+  max-width: 100%;
+  height: 15rem;
+  /* padding: 0rem; */
+  
+}
+
+.card{
+  width: 12rem;
+  height: 24rem;
+}
+
+.card-title {
+font-size: 1rem;
+}
+
+.card-title .year{
+
+  font-size: 0.8rem;
+  padding-left: 3.5rem;
+
+}
+
+.card-description {
+font-size: 0.9rem;
+padding: 0.5rem;
+padding-top: 0rem;
+}
+
+/*-------------------------------------------------SHOP-------------------------------------------*/
+
+.main-card{
+
+}
+
+
+}
